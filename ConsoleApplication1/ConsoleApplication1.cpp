@@ -8,6 +8,7 @@ string input_element() {
     cin >> element;
     return element;
 }
+
 void binary_search(string arr[], string first_name, string last_name, string element, int size) {
     int lowerbound = 0;
     int upperbound = size - 1;
