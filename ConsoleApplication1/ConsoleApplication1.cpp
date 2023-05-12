@@ -31,6 +31,21 @@ void binary_search(string arr[], string first_name, string last_name, string ele
     cout << "Not Found" << endl;
 }
 
+int main() {
+    string nickname = "Shabit";
+    string first_name = "Shabit";
+    string last_name = "Hossain";
+
+    int max_length = 30;
+    string arr[30];
+
+    string element = input_element();
+    binary_search(arr, first_name, last_name, element, max_length);
+
+    return 0;
+}
+
+
 
 
 
